@@ -4,7 +4,7 @@ const generateDocumentData = require('../lib/generate-document-data')
 module.exports = async function (context, request) {
   if (request.body) {
     const { templateData, templateConfig } = request.body
-    const documentTemplate = getDocumentTemplate(...templateConfig)
+    const documentTemplate = getDocumentTemplate({ domain: templateConfig.domain, templateId: templateConfig.templateId })
     const template = {
       filePath: documentTemplate.filePath,
       data: templateData
