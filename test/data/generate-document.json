@@ -1,0 +1,28 @@
+{
+  "templateData": {
+    "dato": "dd.mm.åååå",
+    "navnElev": "Elevens fulle navn",
+    "tlfElev": "Elevens telefonnummer",
+    "epostElev": "Elevens e-post",
+    "fodselsdatoElev": "dd.mm.ååå",
+    "klasseElev": "data.studentMainGroupName",
+    "klasseTrinn": "data.classLevel",
+    "utdanningsProgram": "Utdanningsprogram for eleven",
+    "paarorendeElev": "Navn på elevens pårørende",
+    "navnMottaker": "generateMottaker(data)",
+    "kontaktBedrift": "data.kontaktpersonData",
+    "kopiTilEpost": "Viser om noen har fått dokumentet i kopi pr e-post",
+    "navnOpplaeringssted": "Navn på Opplæringssted",
+    "utplasseringsTidsrom": "Tidsrom for utplasseringen",
+    "skoleAar": "Skoleår",
+    "arbeidsTid": "Arbeidstid under utplassering",
+    "navnLaerer": "data.userName",
+    "epostLaerer": "data.userMail",
+    "navnSkole": "Skolen eleven går på",
+    "tlfSkole": "schoolInfo.phoneNumber"
+  },
+  "templateConfig": {
+    "domain": "minelev",
+    "templateId": "yff-bekreftelse"
+  }
+}

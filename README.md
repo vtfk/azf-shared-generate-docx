@@ -1,2 +1,10 @@
-# azf-shared-generate-docx
-Generates docx from templates and data. Returns a base64 string
+# azf-shared-documents
+
+Shared Azure functions for documents
+
+## generateDocx
+
+# License
+
+[MIT](LICENSE)
+
