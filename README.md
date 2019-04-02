@@ -2,13 +2,17 @@
 
 Shared Azure functions for documents
 
-## generateDocx
+# API
+
+## ```POST generateDocx```
 
 Generates a document from template and data.
 
-## Usage
-
 POST json and receive a base64 encoded version of a docx-file.
+
+```
+$ curl http://localhost:7071/api/generateDocx -d @test/data/generate-document.json --header "Content-Type: application/json"
+```
 
 ### Development
 
@@ -31,4 +35,3 @@ $ curl http://localhost:7071/api/generateDocx -d @test/data/generate-document.js
 # License
 
 [MIT](LICENSE)
-
