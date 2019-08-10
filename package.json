@@ -47,7 +47,7 @@
     }
   },
   "dependencies": {
-    "document-templates": "1.2.2",
+    "document-templates": "1.2.4",
     "generate-docx": "2.1.1"
   }
 }
